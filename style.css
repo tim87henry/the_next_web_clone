@@ -1,0 +1,123 @@
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.header_first {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.header_logo {
+    width: 100px;
+    background: red;
+}
+
+.navbar {
+    width: 500px;
+    background: chartreuse;
+}
+
+.header_email {
+    width: 100px;
+    background: cornflowerblue;
+}
+
+.header_second {
+    background: yellow;
+    height: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: pink;
+}
+
+.banner {
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: cornflowerblue;
+}
+
+.banner_logo {
+    background: chartreuse;
+}
+
+.banner_svg {
+    height: 70px;
+}
+
+.banner_text {
+    background: coral;
+    right: 0;
+}
+
+.main_headlines {
+    display: flex;
+    height: 100%;
+    background: darkgray;
+}
+
+.main_col_1 {
+    flex: 47%;
+}
+
+.main_col_2 {
+    flex: 53%;
+    background: darkkhaki;
+}
+
+.main_col_1_1 {
+    width: 764px;
+    height: 376px;
+}
+
+.main_col_1_2 {
+    width: 764px;
+    height: 248px;
+}
+
+.main_col_2_1 {
+    width: 378px;
+    height: 248px;
+}
+
+.main_col_2_2 {
+    width: 378px;
+    height: 248px;
+}
+
+.main_col_2_3 {
+    width: 764px;
+    height: 376px;
+}
+
+.popular_articles {
+    height: 336px;
+    background: deeppink;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
