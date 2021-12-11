@@ -116,8 +116,34 @@ time, mark, audio, video {
 
 .popular_articles {
     height: 336px;
-    background: deeppink;
+    background: cornsilk;
     position: absolute;
     left: 0;
     right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.popular_articles_title {}
+
+.popular_articles_news {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.popular_articles_news li {
+    display: flex;
+    gap: 10px;
+    width: 250px;
+}
+
+.latest {
+    display: flex;
+    flex-direction: column;
+    background: lightblue;
+    margin-top: 336px;
 }
