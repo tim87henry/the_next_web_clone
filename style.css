@@ -46,14 +46,13 @@ time, mark, audio, video {
 }
 
 .container {
-    width: 80%;
     margin: 0 auto;
     background: pink;
 }
 
 .banner {
     height: 200px;
-    width: 80%;
+    width: 64%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -76,6 +75,8 @@ time, mark, audio, video {
 
 .main_headlines {
     display: flex;
+    margin: 0 auto;
+    width: 80%;
     height: 100%;
     background: darkgray;
 }
@@ -117,9 +118,6 @@ time, mark, audio, video {
 .popular_articles {
     height: 336px;
     background: cornsilk;
-    position: absolute;
-    left: 0;
-    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,6 +142,58 @@ time, mark, audio, video {
 .latest {
     display: flex;
     flex-direction: column;
+    gap: 50px;
     background: lightblue;
-    margin-top: 336px;
+    margin: 0 auto;
+    width: 1216px;
+    padding: 100px 0 100px 0;
+}
+
+.latest_news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.latest_link {
+    width: 200px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.latest_link img {
+    width: 280px;
+    height: 157.5px;
+}
+
+.latest_news_button {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.explore {
+    background: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.explore_items {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.explore_item {
+    width: 291.2px;
+    height: 232px;
+    background: darkgoldenrod;
+}
+
+.newsletter {
+    text-align: center;
+    height: 336px;
+    background: darkgray;
 }
