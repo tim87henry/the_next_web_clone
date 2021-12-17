@@ -197,3 +197,97 @@ time, mark, audio, video {
     height: 336px;
     background: darkgray;
 }
+
+.videos {
+    background: yellowgreen;
+    padding: 70px 0 70px 340px;
+}
+
+.videos_player {
+    display: flex;
+    gap: 50px;
+}
+
+.videos_related {
+    width: 285px;
+    height: 160px;
+}
+
+.videos_others {
+    display: flex;
+    flex-direction: column;
+}
+
+.work {
+    background: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 50px 20px;
+}
+
+.work_main {
+    display: flex;
+}
+
+.work_col_1 {
+    width: 596px;
+    height: 303px;
+}
+
+.work_col_2 {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.work_item {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_item img {
+    width: 112px;
+    height: 112px;
+}
+
+.work_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_footer img {
+    margin-top: 50px;
+    width: 137px;
+    height: 77px;
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 80rem;
+}
+
+.footer_row1 {
+    display: flex;
+}
+
+.footer_col1 {
+    width: 50%;
+}
+
+.footer_col2 {
+    display: flex;
+    gap: 30px;
+}
+
+.footer_col2 ul {
+    list-style-type: none;
+}
